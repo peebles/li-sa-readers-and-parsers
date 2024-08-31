@@ -1,0 +1,30 @@
+{
+  "name": "li-sa-readers-and-parsers",
+  "version": "1.0.0",
+  "description": "Standalone readers and parsers from LlamaIndex",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Andrew Peebles",
+  "license": "ISC",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "tiktoken": "^1.0.16",
+    "zod": "^3.23.8"
+  },
+  "optionalDependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "@types/papaparse": "^5.3.14",
+    "discord-api-types": "^0.37.92",
+    "magic-bytes.js": "^1.10.0",
+    "mammoth": "^1.7.2",
+    "notion-md-crawler": "^1.0.0",
+    "papaparse": "^5.4.1",
+    "string-strip-html": "^13.4.8",
+    "unpdf": "^0.11.0"
+  }
+}
