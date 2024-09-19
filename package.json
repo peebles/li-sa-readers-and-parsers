@@ -1,6 +1,6 @@
 {
   "name": "li-sa-readers-and-parsers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standalone readers and parsers from LlamaIndex",
   "main": "./src/index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "mammoth": "^1.7.2",
     "notion-md-crawler": "^1.0.0",
     "papaparse": "^5.4.1",
+    "@spider-cloud/spider-client": "^0.0.70",
     "string-strip-html": "^13.4.8",
     "unpdf": "^0.11.0"
   }

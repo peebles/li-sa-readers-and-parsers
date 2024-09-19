@@ -12,4 +12,6 @@ export * from "./SimpleDirectoryReader.js";
 export * from "./SimpleMongoReader.js";
 export * from "./TextFileReader.js";
 export * from "./SimpleFileReader.js";
+export * from "./SpiderCloudReader.js";
+export * from "./URLReader.js";
 export * from "./type.js";
